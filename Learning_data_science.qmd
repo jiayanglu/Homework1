@@ -1,0 +1,34 @@
+---
+title: "Learning data science"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+## Header1
+
+-   What do you think being a data scientist is about?
+    -   A data scientist
+-   What differences/similarities do you see between data scientists and statisticians?
+    -   The differences
+-   How do you view yourself in relation to these two areas?
+    -   I view
+
+## Header2
+
+An R code chunk is created here to determine the class, type, and structure of the object y.
+
+```{r}
+y <- density(iris$Sepal.Length)
+class(y)
+typeof(y)
+str(y)
+```
+
+An R code chunk was created here to use the plot function on y. The R code was hidden in the final document by setting echo to false.
+
+```{r}
+#| echo: false
+plot(y)
+```
