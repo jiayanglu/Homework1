@@ -23,7 +23,7 @@ editor_options:
 
 ## Header2
 
-An R code chunk is created here to determine the class, type, and structure of the object y.
+**An R code chunk is created here to determine the class, type, and structure of the object y.**
 
 ```{r}
 y <- density(iris$Sepal.Length)
