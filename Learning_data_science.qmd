@@ -6,24 +6,24 @@ editor_options:
   chunk_output_type: console
 ---
 
-## Header1
+## Header1: Understanding questions.
 
 -   What do you think being a data scientist is about?
 
-    -   A data scientist analyzes and interprets complex data to help organizations make infoormed decisions. Data scientists may start with general questions from customers, clients, or stakeholders and eventually get to more specific and data science solvable questions with a series of communication, evaluation, and negotiation. There are three pillars of essential knowledge for a successful data scientist: analytics knowledge and toolsets, domain knowledge and collaboration, and (big) data management and (new) IT skills.
+    -   A data scientist analyzes and interprets complex data to help organizations make informed decisions. Data scientists may start with general questions from customers, clients, or stakeholders and eventually get to more specific and data science solvable questions with a series of communication, evaluation, and negotiation. There are three pillars of essential knowledge for a successful data scientist: analytics knowledge and toolsets, domain knowledge and collaboration, and (big) data management and (new) IT skills.
 
-    What differences/similarities do you see between data scientists and statisticians?
+-   What differences/similarities do you see between data scientists and statisticians?
 
-    -   Similarities: Both statisticians and data scientists work closely with data. Proficiency in statistical analaysis, programming languages, data visualization, mathematics, and machine learning are vital hard skills for both roles. Additionally, soft skills such as problem-solving, communication, and attention to detail are equally essential in both roles.
-    -   Differences: Statisticians typically handle relatively small, clean, structured datasets stored in text file formats. In comparasion, data scientists usually work with messy, large datasets of various formats, including both structured and unstructured data. In summary, statisticians focus more on modeling and usually bring data to models, while data scientists focus more on data and usually bring models to data.
+    -   Similarities: Both statisticians and data scientists work closely with data. Proficiency in statistical analysis, programming languages, data visualization, mathematics, and machine learning are vital hard skills for both roles. Additionally, soft skills such as problem-solving, communication, and attention to detail are equally essential in both roles.
+    -   Differences: Statisticians typically handle relatively small, clean, structured datasets stored in text file formats. In comparison, data scientists usually work with messy, large datasets of various formats, including both structured and unstructured data. In summary, statisticians focus more on modeling and usually bring data to models, while data scientists focus more on data and usually bring models to data.
 
 -   How do you view yourself in relation to these two areas?
 
     -   Given my background as a research scientist in the pharmaceutical industry, I possess significant domain expertise in this field. I believe I can effectively apply this knowledge together with my statistics/data science training here at NCSU to excel in roles related to biostatistics or data science within the pharmaceutical industry.
 
-## Header2
+## Header2: Including R code in Quarto.
 
-**An R code chunk is created here to determine the class, type, and structure of the object y.**
+An R code chunk is created here to determine the class, type, and structure of the object y, which is the PDF of the variable Sapal.Length of iris dataset.
 
 ```{r}
 y <- density(iris$Sepal.Length)
